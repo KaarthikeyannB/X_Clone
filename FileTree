@@ -1,0 +1,122 @@
+X_Clone/
+├─ Backend/
+│  ├─ controller/
+│  │  ├─ auth.controller.js
+│  │  ├─ notification.controller.js
+│  │  ├─ post.controller.js
+│  │  └─ user.controller.js
+│  ├─ db/
+│  │  └─ connectDb.js
+│  ├─ model/
+│  │  ├─ notification.model.js
+│  │  ├─ post.model.js
+│  │  └─ user.model.js
+│  ├─ routes/
+│  │  ├─ auth.route.js
+│  │  ├─ notification.route.js
+│  │  ├─ post.route.js
+│  │  └─ user.route.js
+│  └─ server.js
+├─ frontendx/
+│  ├─ dist/
+│  │  ├─ assets/
+│  │  │  ├─ index-NgZ-GNc7.css
+│  │  │  └─ index-oek6X1DK.js
+│  │  ├─ avatars/
+│  │  │  ├─ boy1.jpeg
+│  │  │  ├─ boy2.jpeg
+│  │  │  ├─ boy3.jpeg
+│  │  │  ├─ boy4.jpg
+│  │  │  ├─ boy5.jpg
+│  │  │  ├─ boy6.jpeg
+│  │  │  ├─ boy7.jpg
+│  │  │  ├─ girl1.jpeg
+│  │  │  ├─ girl2.jpeg
+│  │  │  └─ girl3.jpeg
+│  │  ├─ posts/
+│  │  │  ├─ post1.jpg
+│  │  │  ├─ post2.jpg
+│  │  │  └─ post4.jpg
+│  │  ├─ avatar-placeholder.png
+│  │  ├─ cover.png
+│  │  ├─ index.html
+│  │  └─ vite.svg
+│  ├─ public/
+│  │  ├─ avatars/
+│  │  │  ├─ boy1.jpeg
+│  │  │  ├─ boy2.jpeg
+│  │  │  ├─ boy3.jpeg
+│  │  │  ├─ boy4.jpg
+│  │  │  ├─ boy5.jpg
+│  │  │  ├─ boy6.jpeg
+│  │  │  ├─ boy7.jpg
+│  │  │  ├─ girl1.jpeg
+│  │  │  ├─ girl2.jpeg
+│  │  │  └─ girl3.jpeg
+│  │  ├─ posts/
+│  │  │  ├─ post1.jpg
+│  │  │  ├─ post2.jpg
+│  │  │  └─ post4.jpg
+│  │  ├─ avatar-placeholder.png
+│  │  ├─ cover.png
+│  │  └─ vite.svg
+│  ├─ src/
+│  │  ├─ assets/
+│  │  │  └─ react.svg
+│  │  ├─ common/
+│  │  │  ├─ Post.jsx
+│  │  │  ├─ Posts.jsx
+│  │  │  └─ SideBar.jsx
+│  │  ├─ components/
+│  │  │  ├─ commmon/
+│  │  │  │  ├─ LoadingSpinner.jsx
+│  │  │  │  └─ RightPanel.jsx
+│  │  │  ├─ skeletons/
+│  │  │  │  ├─ PostSkeleton.jsx
+│  │  │  │  ├─ ProfileHeaderSkeleton.jsx
+│  │  │  │  └─ RightPanelSkeleton.jsx
+│  │  │  └─ svgs/
+│  │  │     └─ X.jsx
+│  │  ├─ constant/
+│  │  │  └─ url.js
+│  │  ├─ hooks/
+│  │  │  ├─ useFollow.jsx
+│  │  │  └─ useUpdateUser.jsx
+│  │  ├─ pages/
+│  │  │  ├─ auth/
+│  │  │  │  ├─ home/
+│  │  │  │  │  ├─ CreatePost.jsx
+│  │  │  │  │  └─ HomePage.jsx
+│  │  │  │  ├─ login/
+│  │  │  │  │  └─ LoginPage.jsx
+│  │  │  │  └─ signup/
+│  │  │  │     └─ SignUpPage.jsx
+│  │  │  ├─ notification/
+│  │  │  │  └─ NotificationPage.jsx
+│  │  │  └─ profile/
+│  │  │     ├─ EditProfileModal.jsx
+│  │  │     └─ ProfilePage.jsx
+│  │  ├─ utils/
+│  │  │  ├─ data/
+│  │  │  │  └─ index.js
+│  │  │  └─ db/
+│  │  │     └─ dummy.js
+│  │  ├─ App.jsx
+│  │  ├─ index.css
+│  │  └─ main.jsx
+│  ├─ eslint.config.js
+│  ├─ index.html
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ README.md
+│  ├─ tailwind.config.js
+│  └─ vite.config.js
+├─ middleware/
+│  └─ protectRoute.js
+├─ utils/
+│  └─ generateToken.js
+├─ .env
+├─ .gitignore
+├─ FileTree
+├─ package-lock.json
+└─ package.json
